@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+	h2 {
+		color:#E936CE;
+		position: relative;
+		left: 450px;
+		top: 10px;
+		bottom: 10px;
+	}
+	table {
+		position: relative;
+		left: 320px;
+	}
+	
+	table,td,th {
+		text-align: center;
+		border: 1px solid #0060BF;
+		border-collapse: collapse;
+		padding: 5px 10px;
+		width: 500px;
+	}
+	
+	th {
+		color:#FFF;
+		background-color: #009B00;
+	}
+	th:hover {
+		background-color: #005700;
+	}
+	
+	tr:nth-child(even) {
+		background-color:#FFB9B9;
+	}
+	tr:hover {
+		background-color: #FF5E5E;
+	}
+ 
+	#btn-hide, #btn-show {
+		background-color: rgb(83, 151, 69);
+		color: white;
+		font-weight: bold;
+		border: none;
+		border-radius: 30px;
+		padding: 10px 30px;
+		position: relative;
+		left: 30%;
+		top:20px;
+		margin-right:5%;
+	}
+	
+
+

@@ -1,0 +1,192 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="index_36.css" />
+    <script src="jquery.js"></script>
+    <title>LeThiHongNhung_TH24.10</title>
+
+    <script>
+        $(document).ready(function() {
+            $(".form1").hide();
+            $("#imgs").hover(function() {
+                $(this).fadeOut(1000)
+            });
+            $("#imgs").mouseleave(function() {
+                $(this).fadeIn(200)
+            });
+            $("#footer").click(function() {
+                $(this).append("Design by: Lê Thị Hồng Nhung - TH24.10");
+            });
+            //Hủy sự kiện click
+            $("#footer").click(function() {
+                $(this).off();
+            });
+            $("#dangky").click(function() {
+                $(".form1").slideDown(400);
+            });
+            $("#X").click(function() {
+                $(".form1").slideUp(400);
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="menu">
+        <table border="0">
+            <tr>
+                <td>SẢN PHẨM MỚI</td>
+                <td>TÚI XÁCH</td>
+                <td>BALO</td>
+                <td>GIÀY</td>
+                <td>VÍ BÓP</td>
+                <td>DÉP GUỐC</td>
+                <td>GIẢM GIÁ</td>
+                <td><a id="lkb2_bai2" href="layout/Buổi2/B2_Bai2.html">TIN TỨC </a></td>
+                <td>CSKH</td>
+                <td id="dangky">ĐĂNG KÝ </td>
+            </tr>
+        </table>
+    </div>
+    <div id="banner">
+        <img src="images_3/banner_b4.jpg">
+    </div>
+    <!--<div id="banner">
+        <div class="slide_1 ra">
+            <img src="images_3/banner_b4.jpg">
+        </div>
+        <div class="slide_2">
+            <img src="images_3/images.jpg">
+        </div>
+        <div class="slide_3">
+            <img src="images_3/banner1.jpg">
+        </div>
+        <div class="slide_4">
+            <img src="images_3/banner_html.png">
+        </div>
+    </div>-->
+
+    <div id="content">
+        <div id="left">
+            <div id="left-cont">
+                <img id="imgs" src="images_3/tab1.jpg">
+                <h3><a id="tieudeh3" href="https://sablanca.vn/phong-cach-chi-tiet/bo-tui--4-outfit-thoi-trang-cho-ngay-he-nang-dong">
+                        BỎ TÚI 4 OUTFIT THỜI TRANG CHO NGÀY HÈ NĂNG ĐỘNG
+                    </a></h3>
+                <p>Mùa hè là lúc nàng cần làm mới tủ đồ của mình bằng những trang phục mỏng nhẹ đem lại sự thoải mái, năng động và trẻ trung. Và đừng quên ...
+                </p>
+                <a href="https://sablanca.vn/phong-cach-chi-tiet/bo-tui--4-outfit-thoi-trang-cho-ngay-he-nang-dong">
+                    Click để xem thêm thông tin </a>
+            </div>
+            <hr>
+            <div id="left-cont">
+                <img id="imgs" src="images_3/tab2.jpg">
+                <h3><a id="tieudeh3" href="https://sablanca.vn/phong-cach-chi-tiet/bat-mi-nhung-tips-de-nang-mac-dep-cung-doi-cao-got-day-manh">
+                        BẬT MÍ NHỮNG TIPS ĐỂ NÀNG MẶC ĐẸP CÙNG ĐÔI CAO GÓT DÂY MẢNH
+                    </a></h3>
+                <p>Những đôi giày cao gót dây mảnh luôn là chìa khoá hoàn hảo cho nàng thích sự thoải mái mà vẫn muốn điệu đà. Thế nhưng làm sao để phát huy tối đa sức mạnh của “skinny strap” nàng đã thử những mẹo nhỏ ...
+                </p>
+                <a href="https://sablanca.vn/phong-cach-chi-tiet/bat-mi-nhung-tips-de-nang-mac-dep-cung-doi-cao-got-day-manh">
+                    Click để xem thêm thông tin </a>
+            </div>
+            <hr>
+            <div id="left-cont">
+                <img id="imgs" src="images_3/tab3.jpg">
+                <h3><a id="tieudeh3" href="https://sablanca.vn/phong-cach-chi-tiet/tuyet-chieu-lua-chon-phu-kien-phu-hop-voi-dang-nguoi-nang">
+                        TUYỆT CHIÊU LỰA CHỌN PHỤ KIỆN PHÙ HỢP VỚI DÁNG NGƯỜI NÀNG
+                    </a></h3>
+                <p>Mỗi một thân hình của quý cô đều là món quà từ tạo hóa ban tặng. Dù có những chuẩn mực về cái đẹp ra sao, song không cần phải quá lo lắng vì chỉ ...
+                </p>
+                <a href="https://sablanca.vn/phong-cach-chi-tiet/tuyet-chieu-lua-chon-phu-kien-phu-hop-voi-dang-nguoi-nang">
+                    Click để xem thêm thông tin </a>
+            </div>
+            <hr>
+            <div id="left-cont">
+                <img id="imgs" src="images_3/tab4.jpg">
+                <h3><a id="tieudeh3" href="https://sablanca.vn/phong-cach-chi-tiet/bi-quyet-chon-flat-shoes-phu-hop-cho-nang-co-dang-nguoi-thap">
+                        BÍ QUYẾT CHỌN FLAT SHOES PHÙ HỢP CHO NÀNG CÓ DÁNG NGƯỜI THẤP
+                    </a></h3>
+                <p>Mùa cuối năm với nhiều bận rộn vậy nên kiểu flat shoes chính là người bạn đồng hành tuyệt vời nhất trong “cuộc chiến" chốn công sở hay thoải mái ...
+                </p>
+                <a href="https://sablanca.vn/phong-cach-chi-tiet/bi-quyet-chon-flat-shoes-phu-hop-cho-nang-co-dang-nguoi-thap">
+                    Click để xem thêm thông tin </a>
+            </div>
+            <hr>
+        </div>
+        <div id="right">
+            <!--<ul>
+                <li style="list-style-image: url(/Buổi3/Layout/images/icon1.png); color:white; background: #174a65;">DANH MỤC</li>
+                <li>Menu item1</li>
+                <li>Menu item2</li>
+                <li>Menu item3</li>
+                <li>Menu item4</li>
+                <li>Menu item5</li>
+                <li>Menu item6</li>
+                <li>Menu item7</li>
+            </ul>-->
+            <div id="right-cont1">
+                <img style="border: 2px solid #174a65;height: 45px;" src="images_3/icon1.png">
+                <p>DANH MỤC</p>
+            </div>
+            <div id="right-cont">
+                <img src="images_3/icon2.jpg">
+                <p><a href="Buổi1/B1_Bai1.html">Bài 1 (Buổi 1)</a></p>
+            </div>
+            <div id="right-cont">
+                <img src="images_3/icon2.jpg">
+                <p><a href="Buổi1/B1_Bai2.html">Bài 2 (Buổi 1)</a></p>
+            </div>
+            <div id="right-cont">
+                <img src="images_3/icon2.jpg">
+                <p><a href="Buổi1/B1_Bai3.html">Bài 3 (Buổi 1)</a></p>
+            </div>
+            <div id="right-cont">
+                <img src="images_3/icon2.jpg">
+                <p><a href="Buổi2/B2_Bai1.html">Bài 1 (Buổi 2) Hide - Show</a></p>
+            </div>
+            <div id="right-cont">
+                <img src="images_3/icon2.jpg">
+                <p><a href="Buổi5/index_B5.html">Bài Tập Buổi 5</a></p>
+            </div>
+            <div id="right-cont">
+                <img src="images_3/icon2.jpg">
+                <p>Khuyến Mại</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        Rewrote website by Le Thi Hong Nhung TH24.10.
+    </div>
+
+    <div class="form1">
+        <script language="javascript" src="ktra.js"></script>
+        <form action="" method="POST" onsubmit="return ktra()" class="form-hide-show">
+            <div class="register">
+                <h1>Đăng Ký</h1>
+                <p id="X">X</p>
+                <p style="clear: both;">Vui lòng điền thông tin để đăng ký</p>
+                <hr> <br>
+                <label for="username"> <b>Tên đăng nhập</b> </label> <br>
+                <input type="text" placeholder="Họ và tên" name="username" id="username"> <br> <br>
+                <label for="password"> <b>Mật khẩu</b> </label> <br>
+                <input type="password" placeholder="******" name="password" id="password"> <br> <br>
+                <label for="repeat-pass"> <b>Nhập lại mật khẩu</b> </label> <br>
+                <input type="password" placeholder="******" name="repeat-pass" id="repeat-pass"> <br> <br>
+                <br>
+                <hr>
+                <p>Để tạo tài khoản vui lòng đồng ý với điều khoản của chúng tôi <a href="#">Điều khoản.</a> </p>
+                <button type="submit" class="submit" id="submit">Đăng ký</button>
+            </div> <br>
+            <div class="login">
+                <p id="login">Bạn đã có tài khoản rồi? <a href="#">Đăng nhập</a> </p>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

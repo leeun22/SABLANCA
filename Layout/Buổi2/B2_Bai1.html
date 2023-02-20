@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css_Bai1.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <title>LeThiHongNhung_TH24.10</title>
+
+    <script>
+        $(document).ready(function () {
+            $("#btn-hide").click(function() {
+                alert('Bạn đã chọn ẩn table !');
+                $("table").hide();
+            });
+            $("#btn-show").click(function() {
+                alert('Bạn đã chọn hiển thị table !');
+                $("table").show();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h2>DANH SÁCH SINH VIÊN </h2>
+    <table>
+        <tr>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Giới tính</th>
+        </tr>
+        <tr>
+            <td>Lê Thị Hồng Nhung</td>
+            <td>22/01/2001</td>
+            <td>Nữ</td>
+        </tr>
+        <tr>
+            <td>Phạm Thị Thùy Ninh</td>
+            <td>25/07/2001</td>
+            <td>Nữ</td>
+        </tr>
+        <tr>
+            <td>Bùi Hữu Nhất</td>
+            <td>17/01/2001</td>
+            <td>Nam</td>
+        </tr>
+        <tr>
+            <td>Phạm Hoài Linh</td>
+            <td>09/06/2001</td>
+            <td>Nữ</td>
+        </tr>
+        <tr>
+            <td>Hoàng Trung Kiên</td>
+            <td>05/05/2001</td>
+            <td>Nam</td>
+        </tr>
+        <tr>
+            <td>Công Phương Chi</td>
+            <td>12/08/2001</td>
+            <td>Nữ</td>
+        </tr>
+    </table>
+    <div id="button">
+        <button type="button" id="btn-hide">Hide</button>
+        <button type="button" id="btn-show">Show</button>
+    </div>
+</body>
+
+</html>

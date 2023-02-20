@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="index_B5.css" />
+    <title>LeThiHongNhung_TH24.10</title>
+
+    <script>
+        //xây dựng hàm tìm kiếm
+        function Search() {
+            //xây dựng danh sách các giá trị cần tìm
+            var list="js, dom, node, website, javascript,document node,element node,text node";
+            //lấy được giá trị mà người dùng nhập vào
+            var value_search=document.getElementById("value_search").value;
+            //tìm xem giá trị người dùng nhập vào có trong danh sách các giá trị hay không --> tìm vị trí
+            var position=list.indexOf(value_search.toLowerCase(),0);
+            //kiểm tra nếu vị trí = -1 thì thông báo KHÔNG TÌM THẤY. Ngược lại --> thông báo TÌM THẤY (if else)
+            if (position==-1)
+                alert("Không tìm thấy dữ liệu bạn cần");
+            else
+                alert("Tìm thấy " + value_search + " ở vị trí " + position); 
+        }
+    </script>
+</head>
+
+<body>
+    <div id="banner">
+        <img id="ban_left" src="images/Nhung_brand2.png">
+        <img id="ban_right" src="images/banner1.jpg">
+    </div>
+    <div id="menu">
+        <table border="0">
+            <tr>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>Javascript</td>
+                <td>JQuery</td>
+                <td>Bootstrap</td>
+                <td id="button_search">
+                    <input type="text" name="text_name" id="value_search"/>
+                    <input type="button" name="btsearch" id="btsearch" value="Search" onclick="Search()"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="main">
+        <div id="main_1">
+            <h4>Giới thiệu về JS</h4>
+            <p>JavaScript là ngôn ngữ lập trình phổ biến nhất trên thế giới trong suốt 20 năm qua.
+                Nó cũng là một trong số 3 ngôn ngữ của lập trình web. Nó có tác dụng giúp chuyển website
+                từ trạng thái tĩnh sang động, tạo tương tác để cải thiện hiệu suất máy chủ và nâng cao trải
+                nghiệm người dùng. JavaScript không chỉ hoạt động mỗi mảng trình duyệt, trong môi trường nhúng
+                (client - side) mà nó còn được biết đến là ngôn ngữ đa nền tảng, chạy được ở nhiều môi trường
+                máy chủ, phần mềm máy tính hay các ứng dụng di động...
+            </p>
+        </div>
+        <div id="main_2">
+            <h4>HTML DOM là gì?</h4>
+            <p>Là viết tắt của (Document Object Model - mô hình đối tượng tài liệu), là một chuẩn được định
+                nghĩa bởi W3C dùng để truy xuất và thao tác trên các tài liệu có cấu trúc dạng HTML hay XML
+                bằng các ngôn ngữ lập trình thông dịch (scripting language) như Javascript, PHP, Python. Đối với
+                HTML DOM, mọi thành phần đều được xem là 1 nút (node), được biểu diễn trên một cây cấu trúc dạng
+                cây gọi là DOM Tree. Các phần tử khác nhau sẽ được phân loại nút khác nhau nhưng quan trọng nhất
+                là 3 loại: nút gốc (document node), nút phần tử (element node), nút văn bản (text node).
+            </p>
+        </div>
+        <div id="main_3">
+            <h4>Truy xuất đến các phần tử</h4>
+            <p>Có 2 phương pháp truy xuất các phần tử trong DOM là truy xuất gián tiếp (dựa theo vị trí của phần
+                tử so với nút gốc để truy xuất), và truy xuất trực tiếp (dựa theo các định danh như id, class,
+                tag name... để truy xuất).
+            </p>
+        </div>
+    </div>
+    <div id="footer">
+        
+        <p id="copyrt">© Copyright 2021 by Le Thi Hong Nhung - TH24.10</p>
+        <p id="ft">HTML &emsp; </p> 
+        <p id="ft">/ &emsp; CSS &emsp;</p>
+        <p id="ft">/ &emsp; Javascript &emsp; </p>
+        <p id="ft">/ &emsp; JQuery &emsp; </p>
+        <p id="ft">/ &emsp; Bootstrap &emsp; </p>
+    </div>
+</body>
+</html>

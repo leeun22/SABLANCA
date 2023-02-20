@@ -1,0 +1,248 @@
+@charset "utf-8";
+    body {
+        /*border:1px dashed;*/
+        margin: auto;
+		width: 100%;
+		font-family:Arial, Helvetica, sans-serif;
+		color: #797979;
+    }
+
+    #menu {
+        /*border:1px dashed;*/
+        background-color: #ca5140;
+		overflow: hidden;
+    }
+
+    #menu table, #menu td {
+        font-size: 17px;
+		border-collapse: collapse;
+		height: 50px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        margin: auto;
+        width: 90%;
+        table-layout: fixed;
+    }
+
+    #menu #lkb2_bai2
+    {
+        color: white;
+        text-decoration: none;
+        border:0;
+
+    }
+
+    #menu td:hover 
+    {
+        background-color:#bb4535 ;
+	}
+
+    #dangky {
+        color:white;
+        text-decoration: none;
+    }
+
+    #banner img 
+    {
+        /*border:1px dashed;*/
+        width:100%;
+        height: 60%;
+        cursor: pointer;
+    }
+
+    #content
+    {
+        /*border: 1px dashed;*/
+        height:auto;
+        width:100%;
+        overflow: hidden;
+    }
+
+    #left 
+    {
+        /*border: 1px dashed;*/
+        width: 70%;
+        overflow: hidden;
+        padding-top: 30px;
+        float: left;
+    }
+
+    #left-cont 
+    {
+        /*border: 1px solid;*/
+        overflow: hidden;
+        padding-bottom: 20px;
+        word-break:break-word;
+    }
+
+    #left-cont img
+    {
+        float:left;
+        width: 20%;
+        height: 140px;
+        position:relative;
+        top:7px;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+
+    #left-cont #tieudeh3 { font-weight: bold; color:rgb(37, 37, 37);cursor: pointer; font-style: normal; text-decoration: none;}
+    #left-cont p, #left-cont a {font-style: italic;}
+
+    #left-cont #tieudeh3, #left-cont p, #left-cont a
+    {
+        /*border: 1px solid;*/
+        position:relative;
+        padding-left: 20px;
+        word-break:break-word;
+        display: flex;
+    }
+
+    #left-cont #tieudeh3:hover 
+    {
+        text-decoration: 2px underline;
+        text-underline-position: below;
+        text-shadow: 0 0 1px #acaaaa;
+    }
+
+    #left-cont a:hover 
+    {
+        text-shadow: 0 0 1px #acaaaa;
+    }
+
+    #left hr
+    {
+        border: 1px dashed #174a65;
+        position:relative;
+        top: -15px;
+        width:1000px;
+    }
+
+    #left-cont 
+    {
+        font-size: 14px;;
+        position: relative;
+        top:-15px;
+    }
+
+    #right
+    {
+        float: left;
+        height: auto;
+        border: 1px dashed #174a65;
+        width: 28%;
+        position:relative;
+        top: 25px;
+    }
+
+   /* #right ul
+    {   
+        list-style-image: url('/Buổi3/Layout/images/icon2 (1).jpg');
+        width: 370px;
+        height: auto;
+        border: 1px dashed #174a65;
+        cursor: pointer;
+    }
+
+    #right li
+    {   
+        font-weight: bold;
+        color:#174a65;
+        border: 1px solid;
+    } */
+
+    #right img 
+    {
+        width:40px;
+        height: 50px;
+        padding-right: 15px;
+    }
+
+    #right-cont1
+    { 
+      color: white;
+      background-color:#174a65;
+      display: flex;
+      cursor: pointer;
+    }
+
+    #right-cont
+    {   
+        display: flex;
+        color: #174a65;
+        cursor: pointer;
+    }
+
+    #right-cont a 
+    {
+        color: #174a65;
+        text-decoration: none;
+    }
+
+    #right-cont a:hover
+    {
+        text-decoration: 2px underline;
+        text-underline-position: below;
+        text-shadow: 0 0 1px #acaaaa;
+    }
+
+    #footer 
+    {
+        height: 35px;
+        color: white;
+        background-color:#ca5140 ;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .form1 {
+        border: 1px dashed;
+        width: 400px;
+        font-size: 14px;
+        background-color: #dbc598;
+        border-radius: 7%  0 7% 0;
+        color: rgb(65, 57, 57);
+        padding: 0 10px 0 10px;
+        position: absolute;
+        top:25%;
+        left:35%;
+        z-index: 1;
+    }
+
+    .form1 h1 {
+        float: left;
+        position: relative;
+        left:35%;
+    }
+    .form1 #X {
+        font-weight: bold;
+        color: #174a65;
+        text-align: right;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .form1 h1, #submit, #login {
+        text-align: center;
+    }
+
+    .form1 h1 {
+        color: #d65746 ;
+    }
+
+    #submit {
+        background-color:#e26756 ;
+        padding: 10px 0 10px 0;
+        width: 100%;
+        color: cornsilk;
+        border: none;
+        cursor: pointer;
+    }
+
+    .form1 input {
+        border: none;
+        padding: 8px 0 8px 5px;
+        width: 100%;
+        background-color: rgb(247, 243, 231);
+    }
